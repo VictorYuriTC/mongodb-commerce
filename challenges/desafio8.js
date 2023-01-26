@@ -2,7 +2,7 @@ db.produtos.deleteMany(
   {
     $and: [
       {
-        curtidas: { $lt: 50 }
+        curtidas: { $lt: 50 },
       },
     ],
   },
