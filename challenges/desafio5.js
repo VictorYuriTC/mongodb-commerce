@@ -14,3 +14,4 @@ db.produtos.find(
     vendidos: 1,
     _id: 0,
   });
+  
