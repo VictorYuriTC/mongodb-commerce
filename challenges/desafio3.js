@@ -11,6 +11,6 @@ db.produtos
     {
       name: 1,
       vendidos: 1,
-      _id: 0
+      _id: 0,
     },
   );

@@ -1,12 +1,12 @@
 db.produtos.updateMany(
   {
-    name: { $ne: 'McChicken' },
-    ingredientes: { $nin: ['ketchup'] },
+    name: { $ne: "McChicken" },
+    ingredientes: { $nin: ["ketchup"] },
   },
 
   {
     $push: {
-      ingredientes: 'ketchup',
+      ingredientes: "ketchup",
     },
   },
 );
@@ -19,6 +19,6 @@ db.produtos.find(
   {
     nome: 1,
     ingredientes: 1,
-    _id: 0
+    _id: 0,
   },
 );
