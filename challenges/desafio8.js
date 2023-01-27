@@ -6,8 +6,13 @@ db.produtos.deleteMany(
       },
     ],
   },
-).find(
-  {},
+);
+
+db.produtos.find(
+  {
+    
+  },
+  
   {
     nome: 1,
     _id: 0,
