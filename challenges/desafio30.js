@@ -8,7 +8,7 @@ db.produtos.updateMany(
       curtidas: "",
     },
   },
-)
+);
 
 db.produtos.find(
   {
