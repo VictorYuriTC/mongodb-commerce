@@ -1,6 +1,6 @@
 db.produtos.find(
   {
-    $where: function() {
+    $where: function noNameHere() {
       return this.curtidas > this.vendidos;
     },
   },
