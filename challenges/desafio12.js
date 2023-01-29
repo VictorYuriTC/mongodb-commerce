@@ -1,11 +1,14 @@
 db.produtos.updateMany(
   {
-    name: { $ne: "McChicken" },
-    ingredientes: { $nin: ["ketchup"] },
+    $nor: [
+      {
+        nome: "McChicken",
+      },
+    ],
   },
 
   {
-    $push: {
+    $addToSet: {
       ingredientes: "ketchup",
     },
   },
