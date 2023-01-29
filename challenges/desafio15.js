@@ -15,10 +15,10 @@ db.produtos.updateMany(
     $and: [
       {
         tags: {
-          $in: ["bovino"]
-        }
-      }
-    ]
+          $in: ["bovino"],
+        },
+      },
+    ],
   },
 
   {
@@ -33,10 +33,10 @@ db.produtos.updateMany(
     $and: [
       {
         tags: {
-          $in: ["ave"]
-        }
-      }
-    ]
+          $in: ["ave"],
+        },
+      },
+    ],
   },
 
   {
